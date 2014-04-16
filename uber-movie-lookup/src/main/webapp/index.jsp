@@ -25,7 +25,7 @@
  	      });
        	
     	$.ajax({
-    		url : "/SFMovieWebApp/getAll"
+    		url : "/getAll"
     	}).done(function(data) {
     		$.each($.parseJSON(data), function(idx, obj) {
     			markAddress(obj);
